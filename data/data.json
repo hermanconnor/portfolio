@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "Automatically generate a random quote and background color every 5 seconds, or at the click of a button.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://hermanconnor.github.io/random-quote-generator/",
+      "github_link": "https://github.com/hermanconnor/random-quote-generator",
+      "image_urls": [
+        "static/images/project-1a.png",
+        "static/images/project-1b.png",
+        "static/images/project-1c.png",
+        "static/images/project-1d.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Data Pagination & Filtering",
+      "description": "Dynamically create and paginate a page of students, from an array of data, with the ability to search/filter students",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "fill in later",
+      "github_link": "link to the github repo",
+      "image_urls": []
+    },
+    {
+      "id": 2,
+      "project_name": "Random Quote Generator",
+      "description": "Generate a random quote from at the click of a button",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "fill in later",
+      "github_link": "link to the github repo",
+      "image_urls": []
+    },
+    {
+      "id": 3,
+      "project_name": "Random Quote Generator",
+      "description": "Generate a random quote from at the click of a button",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "fill in later",
+      "github_link": "link to the github repo",
+      "image_urls": []
+    },
+    {
+      "id": 4,
+      "project_name": "Random Quote Generator",
+      "description": "Generate a random quote from at the click of a button",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "fill in later",
+      "github_link": "link to the github repo",
+      "image_urls": []
+    }
+  ]
+}
