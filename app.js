@@ -1,6 +1,5 @@
 // Import express and set up the app
 const express = require('express');
-
 const mainRoutes = require('./routes');
 const projectRoutes = require('./routes/project');
 const app = express();

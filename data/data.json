@@ -10,45 +10,60 @@
       "image_urls": [
         "static/images/project-1a.png",
         "static/images/project-1b.png",
-        "static/images/project-1c.png",
-        "static/images/project-1d.png"
+        "static/images/project-1c.png"
       ]
     },
     {
       "id": 1,
       "project_name": "Data Pagination & Filtering",
-      "description": "Dynamically create and paginate a page of students, from an array of data, with the ability to search/filter students",
+      "description": "Dynamically create and paginate a page of students, from an array of data, with the ability to search/filter students.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "fill in later",
-      "github_link": "link to the github repo",
-      "image_urls": []
+      "live_link": "https://hermanconnor.github.io/data-pagination-and-filtering/",
+      "github_link": "https://github.com/hermanconnor/data-pagination-and-filtering",
+      "image_urls": [
+        "static/images/project-2a.png",
+        "static/images/project-2b.png",
+        "static/images/project-2c.png"
+      ]
     },
     {
       "id": 2,
-      "project_name": "Random Quote Generator",
-      "description": "Generate a random quote from at the click of a button",
+      "project_name": "Interactive Form",
+      "description": "Form validation in which regular expressions were used for live validation.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "fill in later",
-      "github_link": "link to the github repo",
-      "image_urls": []
+      "live_link": "https://hermanconnor.github.io/Interactive-Form/",
+      "github_link": "https://github.com/hermanconnor/Interactive-Form",
+      "image_urls": [
+        "static/images/project-3a.png",
+        "static/images/project-3b.png",
+        "static/images/project-3c.png"
+      ]
     },
     {
       "id": 3,
-      "project_name": "Random Quote Generator",
-      "description": "Generate a random quote from at the click of a button",
+      "project_name": "Phrase Hunter",
+      "description": "OOP was used to create a game in which the player tries to guess all the letters in a phrase.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "fill in later",
-      "github_link": "link to the github repo",
-      "image_urls": []
+      "live_link": "https://hermanconnor.github.io/Phrase-Hunter/",
+      "github_link": "https://github.com/hermanconnor/Phrase-Hunter",
+      "image_urls": [
+        "static/images/project-4a.png",
+        "static/images/project-4b.png",
+        "static/images/project-4c.png"
+      ]
     },
     {
       "id": 4,
-      "project_name": "Random Quote Generator",
-      "description": "Generate a random quote from at the click of a button",
+      "project_name": "Awesome startup",
+      "description": "An API was used to dynamically populate a list of employees, with a search bar that can filter through the list of employees on page. ",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "fill in later",
-      "github_link": "link to the github repo",
-      "image_urls": []
+      "live_link": "https://hermanconnor.github.io/Awesome-Startup/",
+      "github_link": "https://github.com/hermanconnor/Awesome-Startup",
+      "image_urls": [
+        "static/images/project-5a.png",
+        "static/images/project-5b.png",
+        "static/images/project-5c.png"
+      ]
     }
   ]
 }
