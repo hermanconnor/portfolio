@@ -10,7 +10,8 @@
       "image_urls": [
         "static/images/project-1a.png",
         "static/images/project-1b.png",
-        "static/images/project-1c.png"
+        "static/images/project-1c.png",
+        "static/images/project-1d.png"
       ]
     },
     {
@@ -23,7 +24,8 @@
       "image_urls": [
         "static/images/project-2a.png",
         "static/images/project-2b.png",
-        "static/images/project-2c.png"
+        "static/images/project-2c.png",
+        "static/images/project-2d.png"
       ]
     },
     {
@@ -36,7 +38,8 @@
       "image_urls": [
         "static/images/project-3a.png",
         "static/images/project-3b.png",
-        "static/images/project-3c.png"
+        "static/images/project-3c.png",
+        "static/images/project-3d.png"
       ]
     },
     {
@@ -49,7 +52,8 @@
       "image_urls": [
         "static/images/project-4a.png",
         "static/images/project-4b.png",
-        "static/images/project-4c.png"
+        "static/images/project-4c.png",
+        "static/images/project-4d.png"
       ]
     },
     {
@@ -62,7 +66,8 @@
       "image_urls": [
         "static/images/project-5a.png",
         "static/images/project-5b.png",
-        "static/images/project-5c.png"
+        "static/images/project-5c.png",
+        "static/images/project-5d.png"
       ]
     }
   ]

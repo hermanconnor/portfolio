@@ -11,4 +11,18 @@ router.get('/about', (res, req) => {
   res.render('about');
 });
 
+router.get('/project/:id', (req, res, next) => {
+  const projectID = req.params.id;
+  const project = projects.find(({ id }) => id === +projectID);
+
+  if (project) {
+    res.render('project', { project });
+  } else {
+    const err = new Error();
+    err.status = 404;
+    err.message = `Looks like the project you requested doesn't exist`;
+    next(err);
+  }
+});
+
 module.exports = router;
