@@ -1,6 +1,6 @@
 extends layout.pug
 
 block content
-  h1
-  h2
-  pre
+  h1 #{err.status} -Page Not Found
+  h2 #{err.message}
+  pre #{err.stack}
