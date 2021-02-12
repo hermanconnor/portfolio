@@ -1,6 +1,10 @@
 extends layout.pug
 
 block content
-  h1 #{err.status} -Page Not Found
-  h2 #{err.message}
-  pre #{err.stack}
+  article.portfolio-intro
+    h1 Page Not Found
+    h2 Error status code: #{err.status} - Page Not Found
+    h3 #{err.message}
+    
+    a.btn-link(href='/') Home
+    //- pre #{err.stack}

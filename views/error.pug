@@ -1,6 +1,10 @@
 extends layout.pug
 
 block content
-  h1 #{err.status} -Server Error
-  h2 #{err.message}
-  pre #{err.stack}
+  article.portfolio-intro
+    h1 Server Error 
+    h2 Error status code: #{err.status} - Server Error
+    h3 #{err.message}
+    
+    a.btn-link(href='/') Home
+    //- pre #{err.stack}
