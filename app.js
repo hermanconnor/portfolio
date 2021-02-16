@@ -27,11 +27,12 @@ app.use((err, req, res, next) => {
   if (err.status === 404) {
     res.status(404).render('page-not-found', { err });
   } else {
-    err.message = err.message || `Uh Oh! Something went wrong with the server!`;
+    err.message = err.message || `Uh Oh! Something went wrong!`;
     console.log(`${err.message} Status: ${err.status}`);
     res.status(err.status || 500);
     res.render('error', { err });
   }
 });
 
+// Start Server On Port 3000
 app.listen(3000, () => console.log('Server running on port 3000.'));

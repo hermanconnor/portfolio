@@ -28,13 +28,13 @@ router.get('/project/:id', (req, res, next) => {
   }
 });
 
-/* GET generated error route - create and throw 500 server error */
+/* GET Generated Error Route - Create and throw 500 server error */
 router.get('/error', (req, res, next) => {
   // Log out custom error handler indication
   console.log('Custom error route called');
 
   const err = new Error();
-  // err.message = `Custom 500 error thrown`;
+  err.message = `Custom 500 error thrown`;
   err.status = 500;
   throw err;
 });
