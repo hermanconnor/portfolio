@@ -23,7 +23,8 @@ router.get('/project/:id', (req, res, next) => {
   } else {
     const err = new Error();
     err.status = 404;
-    err.message = `Looks like the project you requested doesn't exist`;
+    err.message = `Looks like the project you requested doesn't exist.`;
+    console.log(`${err.message} Status: ${err.status}`);
     next(err);
   }
 });
@@ -31,10 +32,10 @@ router.get('/project/:id', (req, res, next) => {
 /* GET Generated Error Route - Create and throw 500 server error */
 router.get('/error', (req, res, next) => {
   // Log out custom error handler indication
-  console.log('Custom error route called');
+  console.log('Custom error route called.');
 
   const err = new Error();
-  err.message = `Custom 500 error thrown`;
+  err.message = `Custom 500 error thrown.`;
   err.status = 500;
   throw err;
 });
