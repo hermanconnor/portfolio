@@ -2,18 +2,18 @@ const express = require('express');
 const router = express.Router();
 const { projects } = require('../data/data.json');
 
-// Home Route
+// GET Home Route
 router.get('/', (req, res) => {
   res.locals = projects;
   res.render('index', { projects });
 });
 
-// About Route
+// GET About Route
 router.get('/about', (req, res) => {
   res.render('about');
 });
 
-// Project Routes
+// GET Project Routes
 router.get('/project/:id', (req, res, next) => {
   const projectID = req.params.id;
   const project = projects.find(({ id }) => id === +projectID);

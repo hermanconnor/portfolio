@@ -3,12 +3,13 @@ const express = require('express');
 const mainRoutes = require('./routes');
 const app = express();
 
-// Set view enging
+// Set view engine
 app.set('view engine', 'pug');
 
 // Set Static Folder
 app.use('/static', express.static('public'));
 
+// Use route definitions
 app.use(mainRoutes);
 
 /* ERROR HANDLERS */
@@ -27,6 +28,7 @@ app.use((err, req, res, next) => {
     res.status(404).render('page-not-found', { err });
   } else {
     err.message = err.message || `Uh Oh! Something went wrong with the server!`;
+    console.log(`${err.message} Status: ${err.status}`);
     res.status(err.status || 500);
     res.render('error', { err });
   }
