@@ -18,7 +18,6 @@ app.use((req, res, next) => {
   const err = new Error();
   err.status = 404;
   err.message = `Oops! It looks like the page you're looking for does not exist.`;
-  console.log(`${err.message} Status: ${err.status}`);
   next(err);
 });
 
@@ -26,11 +25,12 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
   if (err.status === 404) {
     res.status(404).render('page-not-found', { err });
+    console.log(`${err.message} Status: ${err.status}`);
   } else {
     err.message = err.message || `Uh Oh! Something went wrong!`;
-    console.log(`${err.message} Status: ${err.status}`);
     res.status(err.status || 500);
     res.render('error', { err });
+    console.log(`${err.message} Status: ${err.status}`);
   }
 });
 
